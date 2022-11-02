@@ -11,24 +11,18 @@
     margin-left: 5px;
     gap: 7px;
   }
-  .segundaPagina #caixas {
-    border: 2px solid rede;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: space-around;
-  }
 }
-@media (min-width: 480px) {
+@media (max-width: 480px) and (min-width: 480px) {
   .seta {
     margin-top: 7vw;
   }
 }
-@media (min-width: 760px) {
+@media (max-width: 480px) and (min-width: 760px) {
   .seta {
     margin-top: 7vw;
   }
 }
-@media (min-width: 968px) {
+@media (max-width: 480px) and (min-width: 968px) {
   .primeiraPagina .apresentacao {
     margin-top: 70px;
     padding-bottom: 150px;
@@ -40,11 +34,15 @@
     margin-left: 70px;
   }
   .segundaPagina .habilidades {
-    margin-left: 70px;
-    grid-template-columns: 1fr 1fr;
+    margin-top: 20px;
   }
-  .segundaPagina .habilidades .boxConfig {
-    margin-left: 200px;
+  .segundaPagina #caixas {
+    margin-top: 2.5rem;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px 20px;
+    border: 2px solid red;
   }
   .terceiraPagina .projetos {
     margin-left: 70px;
@@ -53,7 +51,6 @@
   .terceiraPagina #caixasDeProjetos {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    justify-content: space-around;
   }
 }
 .primeiraPagina #perfil {
@@ -690,13 +687,12 @@ body {
   margin-top: 20px;
 }
 .segundaPagina .habilidades #caixas {
-  margin-left: 20px;
-  width: 20px;
+  width: 300px;
   margin-top: 2.5rem;
   display: grid;
   justify-content: space-between;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 20px 20px;
+  gap: 10px 10px;
 }
 
 .terceiraPagina {
