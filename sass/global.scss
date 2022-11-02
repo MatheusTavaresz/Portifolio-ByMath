@@ -1,0 +1,20 @@
+@import './variables/responsividade.scss';
+@import './variables/boxConfig.scss';
+@import './variables/fonts.scss';
+@import './variables/colors.scss';
+@import './variables/animacoes.scss';
+@import './body.scss';
+@import './pages/primeiraPagina.scss';
+@import './pages/segundaPagina.scss';
+@import './pages/terceiraPagina.scss';
+@import './pages/quartaPagina.scss';
+@import './variables/others/projectsDetails.scss';
+@import './variables/3d/animacao3d.scss';
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+

@@ -1,0 +1,20 @@
+.segundaPagina{
+  margin-top: 20px;
+  margin-left: 20px;
+
+  .habilidades{
+    margin-top: 20px;
+   
+  #caixas{
+    margin-left: 20px;
+    width: 20px;
+    margin-top: 2.5rem;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px 20px;
+  }
+
+
+}
+}
