@@ -1,18 +1,27 @@
 @media(max-width: 480px){
-  .seta{
-  display: none;
-}
-.apresentacao{
-  margin-top: 70px;
-  padding-bottom: 60px;
-}
+  .primeiraPagina{
+    .seta{
+      display: none;
+    }
+    .apresentacao{
+      margin-top: 70px;
+      padding-bottom: 60px;
+    }
+    
+    .botoes{
+      margin-left: 5px;
+      gap: 7px;
+    }    
+  }
 
-.botoes{
-  margin-left: 5px;
-  gap: 7px;
+  .terceiraPagina{
+    #caixasDeProjetos{
+      margin-left: 18vw;
+    }
+  }
+
+
 }
-
-
 
 @media(min-width: 480px){
   .seta{
@@ -31,6 +40,8 @@
   .primeiraPagina{
     .apresentacao{
       margin-top: 70px;
+    }
+    .botoes{
       padding-bottom: 150px;
     }
     .seta{
@@ -40,24 +51,24 @@
 
 
   .segundaPagina{
-
   .sobre{
     margin-left: 70px;
   }
 
   .habilidades{
     margin-top: 20px;
+    #caixas{
+      width: 300px;
+      margin-top: 2.5rem;
+      display: grid;
+      justify-content: space-between;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px 20px;
+      border: 2px solid red;
+    }
+
   }
 
-  #caixas{
-    margin-top: 2.5rem;
-    display: grid;
-    justify-content: space-between;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 20px 20px;
-    border: 2px solid red;
-  }
-}
   .terceiraPagina{
     .projetos{
     margin-left: 70px;
@@ -67,6 +78,7 @@
   #caixasDeProjetos{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-around;
   }
 
     .boxProjects{ 
