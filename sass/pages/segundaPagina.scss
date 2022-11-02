@@ -4,14 +4,12 @@
 
   .habilidades{
     margin-top: 20px;
-   
+   display: flex;
+   flex-direction: column;
   #caixas{
-    width: 300px;
+    width: 70%;
     margin-top: 2.5rem;
-    display: grid;
-    justify-content: space-between;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 10px 10px;
+    gap: 7px;
   }
 
 

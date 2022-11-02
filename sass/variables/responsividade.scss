@@ -52,21 +52,20 @@
 
   .segundaPagina{
   .sobre{
-    margin-left: 70px;
+    margin-left: 100px;
   }
 
   .habilidades{
     margin-top: 20px;
-    #caixas{
-      width: 300px;
-      margin-top: 2.5rem;
-      display: grid;
-      justify-content: space-between;
-      grid-template-columns: 1fr 1fr;
-      gap: 20px 20px;
-      border: 2px solid red;
-    }
+    margin-left: 100px;
 
+    #caixas{
+      margin-left:80px;
+      display: grid;
+      justify-content: center;
+      grid-template-columns: repeat(3, 1fr);
+      margin-top: 4.5rem;
+    }
   }
 
   .terceiraPagina{
@@ -82,7 +81,18 @@
   }
 
     .boxProjects{ 
+      margin-left: 120px;
     }
 }
 }
+
+  .terceiraPagina{
+    padding-top: 50px;
+    #caixasDeProjetos{
+      border: 2px solid red;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
 }

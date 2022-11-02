@@ -29,8 +29,10 @@
 
 .terceiraPagina{
   .projetos{
-    display: grid;
-    grid-template-columns: auto;
+    margin-left: 70px;
+    width: 80vw;
+  }
+  #caixasDeProjetos{
     .boxProjects{
       margin-top: 50px;
       width: 220px;

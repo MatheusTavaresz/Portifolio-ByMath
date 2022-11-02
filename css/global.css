@@ -36,19 +36,18 @@
     margin-top: 30px;
   }
   .segundaPagina .sobre {
-    margin-left: 70px;
+    margin-left: 100px;
   }
   .segundaPagina .habilidades {
     margin-top: 20px;
+    margin-left: 100px;
   }
   .segundaPagina .habilidades #caixas {
-    width: 300px;
-    margin-top: 2.5rem;
+    margin-left: 80px;
     display: grid;
-    justify-content: space-between;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px 20px;
-    border: 2px solid red;
+    justify-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 4.5rem;
   }
   .segundaPagina .terceiraPagina .projetos {
     margin-left: 70px;
@@ -58,6 +57,17 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: space-around;
+  }
+  .segundaPagina .terceiraPagina .boxProjects {
+    margin-left: 120px;
+  }
+  .terceiraPagina {
+    padding-top: 50px;
+  }
+  .terceiraPagina #caixasDeProjetos {
+    border: 2px solid red;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 .primeiraPagina #perfil {
@@ -83,34 +93,34 @@
 }
 
 .terceiraPagina .projetos {
-  display: grid;
-  grid-template-columns: auto;
+  margin-left: 70px;
+  width: 80vw;
 }
-.terceiraPagina .projetos .boxProjects {
+.terceiraPagina #caixasDeProjetos .boxProjects {
   margin-top: 50px;
   width: 220px;
   border: solid 2px rgb(242, 242, 242);
   cursor: pointer;
 }
-.terceiraPagina .projetos #nlw-explorer {
+.terceiraPagina #caixasDeProjetos #nlw-explorer {
   width: 100%;
   height: 100%;
   background-size: cover;
   background-image: url("../../imgs/projetos/matheustavaresz.github.io_NLW-Explorer_.png");
 }
-.terceiraPagina .projetos #site-petshop {
+.terceiraPagina #caixasDeProjetos #site-petshop {
   width: 100%;
   height: 100%;
   background-size: cover;
   background-image: url("../../imgs/projetos/desafio-petshop.vercel.app_.png");
 }
-.terceiraPagina .projetos #rockeyPay {
+.terceiraPagina #caixasDeProjetos #rockeyPay {
   width: 100%;
   height: 100%;
   background-size: cover;
   background-image: url("../../imgs/projetos/explorer-lab-01-three-opal.vercel.app_.png");
 }
-.terceiraPagina .projetos #mini-portifólio {
+.terceiraPagina #caixasDeProjetos #mini-portifólio {
   width: 100%;
   height: 100%;
   background-size: cover;
@@ -692,14 +702,13 @@ body {
 }
 .segundaPagina .habilidades {
   margin-top: 20px;
+  display: flex;
+  flex-direction: column;
 }
 .segundaPagina .habilidades #caixas {
-  width: 300px;
+  width: 70%;
   margin-top: 2.5rem;
-  display: grid;
-  justify-content: space-between;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 10px 10px;
+  gap: 7px;
 }
 
 .terceiraPagina {
