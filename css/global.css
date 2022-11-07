@@ -13,6 +13,9 @@
     gap: 7px;
     margin-bottom: 8vh;
   }
+  .segundaPagina {
+    margin-left: 20px;
+  }
   .segundaPagina .habilidades {
     margin-top: 50px;
   }
@@ -709,7 +712,6 @@ body {
 
 .segundaPagina {
   margin-top: 20px;
-  margin-left: 20px;
   padding-bottom: 70px;
 }
 .segundaPagina .habilidades {
