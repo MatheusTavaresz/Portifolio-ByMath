@@ -1,15 +1,17 @@
 @charset "UTF-8";
 @media (max-width: 480px) {
   .primeiraPagina .seta {
-    display: none;
+    padding-top: 5vh;
+    padding-bottom: 2vh;
   }
   .primeiraPagina .apresentacao {
-    margin-top: 70px;
-    padding-bottom: 60px;
+    margin-top: 7vh;
+    padding-bottom: 9vh;
   }
   .primeiraPagina .botoes {
     margin-left: 5px;
     gap: 7px;
+    margin-bottom: 8vh;
   }
   .segundaPagina .habilidades {
     margin-top: 50px;
@@ -25,92 +27,59 @@
     margin-left: 20px;
   }
   .terceiraPagina #caixasDeProjetos {
-    margin-left: 14vw;
-  }
-  .quartaPagina {
-    background-color: rgb(33, 33, 33);
-  }
-  .quartaPagina .contato .titulo {
-    padding-top: 20px;
-  }
-  .quartaPagina .recado {
-    display: flex;
-    flex-direction: column;
-    margin-left: 10vw;
-    margin-top: 20px;
-  }
-  .quartaPagina .recado label {
-    color: white;
+    margin-left: 15vw;
   }
 }
-@media (min-width: 480px) {
-  .seta {
-    margin-top: 7vw;
+@media (min-width: 481px) {
+  .primeiraPagina .seta {
+    padding-top: 5vh;
+    padding-bottom: 2vh;
   }
-}
-@media (min-width: 760px) {
-  .seta {
-    margin-top: 7vw;
-  }
-  #caixas {
-    display: grid;
-  }
-}
-@media (min-width: 968px) {
   .primeiraPagina .apresentacao {
-    margin-top: 70px;
+    margin-top: 7vh;
+    padding-bottom: 9vh;
   }
   .primeiraPagina .botoes {
-    padding-bottom: 150px;
+    margin-left: 5px;
+    gap: 7px;
+    margin-bottom: 8vh;
   }
-  .primeiraPagina .seta {
-    margin-top: 30px;
-  }
-  .segundaPagina .sobre {
-    margin-left: 100px;
-    margin-bottom: 40px;
-  }
-  .segundaPagina .habilidades {
-    margin-top: 50px;
-    margin-left: 100px;
-  }
-  .segundaPagina .habilidades #caixas {
-    margin-left: 150px;
+  .segundaPagina #caixas {
+    margin-left: 14vw;
     display: grid;
     justify-content: center;
     grid-template-columns: repeat(3, 1fr);
     margin-top: 4.5rem;
   }
-  .segundaPagina .terceiraPagina .projetos {
-    margin-left: 70px;
-    padding-bottom: 150px;
-  }
-  .segundaPagina .terceiraPagina #caixasDeProjetos {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    justify-content: space-around;
-  }
-  .segundaPagina .terceiraPagina .boxProjects {
-    margin-left: 120px;
-  }
-  .terceiraPagina {
-    padding-top: 50px;
-  }
   .terceiraPagina #caixasDeProjetos {
     display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 1024px) {
+  .primeiraPagina .seta {
+    padding-top: 5vh;
+    padding-bottom: 4vh;
+  }
+  .primeiraPagina .apresentacao {
+    margin-top: 7vh;
+    padding-bottom: 9vh;
+  }
+  .primeiraPagina .botoes {
+    margin-left: 5px;
+    gap: 7px;
+    margin-bottom: 10vh;
+  }
+  .segundaPagina {
+    margin-left: 10vw;
+    margin-bottom: 50px;
+  }
+  .segundaPagina #caixas {
+    margin-left: 10vw;
+    display: grid;
+    justify-content: center;
     grid-template-columns: repeat(3, 1fr);
-  }
-  .quartaPagina {
-    background-color: rgb(33, 33, 33);
-  }
-  .quartaPagina .contato {
-    margin-left: 50px;
-  }
-  .quartaPagina .contato .titulo {
-    padding-top: 20px;
-  }
-  .quartaPagina .recado {
-    margin-left: 30vw;
+    margin-top: 4.5rem;
   }
 }
 .primeiraPagina #perfil {
@@ -741,6 +710,7 @@ body {
 .segundaPagina {
   margin-top: 20px;
   margin-left: 20px;
+  padding-bottom: 70px;
 }
 .segundaPagina .habilidades {
   margin-top: 20px;
@@ -753,18 +723,32 @@ body {
   gap: 7px;
 }
 
-.terceiraPagina {
-  margin-top: 100px;
+.terceiraPagina .projetos {
+  margin-left: 10vw;
+}
+.terceiraPagina #caixasDeProjetos {
+  margin-left: 10vw;
 }
 
 .quartaPagina {
   margin-top: 100px;
   padding-bottom: 100px;
+  background-color: rgb(33, 33, 33);
 }
-.quartaPagina .contato {
-  margin-top: 150px;
+.quartaPagina .contato .titulo {
+  margin-left: 20px;
+  padding-top: 20px;
 }
-.quartaPagina .recado .formulário {
+.quartaPagina .recado {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10vw;
+  margin-top: 20px;
+}
+.quartaPagina .recado label {
+  color: white;
+}
+.quartaPagina .formulário {
   margin-top: 30px;
 }
 

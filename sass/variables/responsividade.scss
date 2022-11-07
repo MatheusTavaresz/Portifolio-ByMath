@@ -1,16 +1,18 @@
 @media(max-width: 480px){
   .primeiraPagina{
     .seta{
-      display: none;
+      padding-top: 5vh;
+      padding-bottom: 2vh;
     }
     .apresentacao{
-      margin-top: 70px;
-      padding-bottom: 60px;
+      margin-top: 7vh;
+      padding-bottom: 9vh;
     }
     
     .botoes{
       margin-left: 5px;
       gap: 7px;
+      margin-bottom: 8vh;
     }    
   }
 
@@ -33,76 +35,71 @@
       margin-left: 20px;
     }
     #caixasDeProjetos{
-      margin-left: 14vw;
+      margin-left: 15vw;
     }
   }
+}
 
-  .quartaPagina{
-    background-color: rgb(33, 33, 33);
-    .contato{
-
-      .titulo{
-        padding-top: 20px;
-
-      }
+@media(min-width: 481px){
+  .primeiraPagina{
+    .seta{
+      padding-top: 5vh;
+      padding-bottom: 2vh;
     }
-    .recado{
-      display: flex;
-      flex-direction: column;
-      margin-left: 10vw;
-      margin-top: 20px;
-      label{
-        color: white;
-      }
+    .apresentacao{
+      margin-top: 7vh;
+      padding-bottom: 9vh;
     }
     
-  }
-}
-
-@media(min-width: 480px){
-  .seta{
-    margin-top: 7vw;
-  }
-}
-
-
-@media(min-width:760px) {
-  .seta{
-    margin-top: 7vw;
-  }
-
-  #caixas{
-    display: grid;
-  }
-
-}
-
-@media(min-width:968px){
-  .primeiraPagina{
-    .apresentacao{
-      margin-top: 70px;
-    }
     .botoes{
-      padding-bottom: 150px;
-    }
-    .seta{
-      margin-top: 30px;
-    }
+      margin-left: 5px;
+      gap: 7px;
+      margin-bottom: 8vh;
+    }    
   }
 
+.segundaPagina{
+  #caixas{
+    margin-left: 14vw;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 4.5rem;
+  }
+}
+
+.terceiraPagina{
+  #caixasDeProjetos{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+}
+
+@media(min-width:1024px){
+  .primeiraPagina{
+    .seta{
+      padding-top: 5vh;
+      padding-bottom: 4vh;
+    }
+    .apresentacao{
+      margin-top: 7vh;
+      padding-bottom: 9vh;
+    }
+    
+    .botoes{
+      margin-left: 5px;
+      gap: 7px;
+      margin-bottom: 10vh;
+    }    
+  }
 
   .segundaPagina{
-  .sobre{
-    margin-left: 100px;
-    margin-bottom: 40px;
-  }
-
-  .habilidades{
-    margin-top: 50px;
-    margin-left: 100px;
-
+    margin-left: 10vw;
+    margin-bottom: 50px;
     #caixas{
-      margin-left: 150px;
+      margin-left: 10vw;
       display: grid;
       justify-content: center;
       grid-template-columns: repeat(3, 1fr);
@@ -110,46 +107,4 @@
     }
   }
 
-  .terceiraPagina{
-    .projetos{
-    margin-left: 70px;
-    padding-bottom: 150px;
-  } 
-
-  #caixasDeProjetos{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    justify-content: space-around;
-  }
-
-    .boxProjects{ 
-      margin-left: 120px;
-    }
-}
-}
-
-  .terceiraPagina{
-    padding-top: 50px;
-    #caixasDeProjetos{
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-    }
-  }
-
-
-  .quartaPagina{
-    background-color: rgb(33, 33, 33);
-    .contato{
-      margin-left: 50px;
-      .titulo{
-        padding-top: 20px;
-
-      }
-    }
-    .recado{
-      margin-left: 30vw;
-
-    }
-    
-  }
-}
+ }

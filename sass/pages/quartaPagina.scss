@@ -2,15 +2,29 @@
 .quartaPagina{
   margin-top: 100px;
   padding-bottom: 100px;
+  background-color: rgb(33, 33, 33);
+  
   .contato{
-    margin-top: 150px;
+    .titulo{
+      margin-left: 20px;
+      padding-top: 20px;
+    }
   }
-  .recado{
+
+.recado{
+  display: flex;
+  flex-direction: column;
+  margin-left: 10vw;
+  margin-top: 20px;
+  label{
+    color: white;
+  }
+}
 
 .formulário{
   margin-top: 30px;
 }
-}
+
 }
 
 .footer{
